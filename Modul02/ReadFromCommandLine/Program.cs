@@ -30,7 +30,14 @@ namespace ReadFromCommandLine
 			Console.WriteLine ( "Работа с Replase с  += :" + test + "\n");
 			Console.WriteLine ( "3-ти знак: " + test.Split (';')[2] );
 
+			string k = "Какво правиш ?\n";
+			k +=" 1.Работя:\n";
+			k +=" 2.Почивам:\n";
+			k +=" 3.Спортувам:\n";
+			Console.WriteLine ( k );
 
+			string l = "Какво правиш ?\n";
+			Console.WriteLine (" 1.Карам кола:\n 2.Карам колело:\n 3.Карам мотор:\n");
 
 
 
