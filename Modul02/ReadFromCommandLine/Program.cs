@@ -36,7 +36,7 @@ namespace ReadFromCommandLine
 			k +=" 3.Спортувам:\n";
 			Console.WriteLine ( k );
 
-			string l = "Какво правиш ?\n";
+			string v = "Какво правиш ?\n";
 			Console.WriteLine (" 1.Карам кола:\n 2.Карам колело:\n 3.Карам мотор:\n");
 
 
