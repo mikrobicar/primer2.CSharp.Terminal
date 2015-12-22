@@ -15,7 +15,25 @@ namespace ReadFromCommandLine
 
 
 			//Печат на ресултата
-			Console.WriteLine ("\nРезултата a + b e: " + ( a + b ).ToString () + "\n\n\n");
+			Console.WriteLine ("\nРезултата a + b e: " + ( a + b ).ToString () + "\n");
+
+			string test = "1";
+			test += ", 2";
+			test += ", 3";
+			test += ", 4";
+			test += ", 5";
+			test += ", 6";
+
+			Console.WriteLine ("Събиране с  += :" + test + "\n");
+
+			test = test.Replace (", ", ";");
+			Console.WriteLine ( "Работа с Replase с  += :" + test + "\n");
+			Console.WriteLine ( "3-ти знак: " + test.Split (';')[2] );
+
+
+
+
+
 
 		}
 	}
