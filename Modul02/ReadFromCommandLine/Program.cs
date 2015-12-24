@@ -14,7 +14,7 @@ namespace ReadFromCommandLine
 			b = Convert.ToInt32 ( Console.ReadLine () );
 
 
-			//Печат на ресултата
+			//Печат на резултата
 			Console.WriteLine ("\nРезултата a + b e: " + ( a + b ).ToString () + "\n");
 
 			string test = "1";
@@ -36,7 +36,7 @@ namespace ReadFromCommandLine
 			k +=" 3.Спортувам:\n";
 			Console.WriteLine ( k );
 
-			string v = "Какво правиш ?\n";
+			string z = "Какво правиш ?\n";
 			Console.WriteLine (" 1.Карам кола:\n 2.Карам колело:\n 3.Карам мотор:\n");
 
 
