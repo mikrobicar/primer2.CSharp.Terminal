@@ -3,12 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul03", "Modul03\Modul03.csproj", "{6432CF74-0467-4599-B319-F1D2230747E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoolExplore", "BoolExplore\BoolExplore.csproj", "{45F093A8-53A8-4478-BC90-ABC9523090B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45F093A8-53A8-4478-BC90-ABC9523090B6}.Debug|x86.ActiveCfg = Debug|x86
+		{45F093A8-53A8-4478-BC90-ABC9523090B6}.Debug|x86.Build.0 = Debug|x86
+		{45F093A8-53A8-4478-BC90-ABC9523090B6}.Release|x86.ActiveCfg = Release|x86
+		{45F093A8-53A8-4478-BC90-ABC9523090B6}.Release|x86.Build.0 = Release|x86
 		{6432CF74-0467-4599-B319-F1D2230747E3}.Debug|x86.ActiveCfg = Debug|x86
 		{6432CF74-0467-4599-B319-F1D2230747E3}.Debug|x86.Build.0 = Debug|x86
 		{6432CF74-0467-4599-B319-F1D2230747E3}.Release|x86.ActiveCfg = Release|x86
